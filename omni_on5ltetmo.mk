@@ -8,6 +8,6 @@ $(call inherit-product, vendor/omni/config/common.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := on5ltetmo
-PRODUCT_NAME := cm_on5ltemtr
+PRODUCT_NAME := omni_on5ltetmo
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
