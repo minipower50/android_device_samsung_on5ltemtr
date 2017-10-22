@@ -39,10 +39,10 @@ void vendor_load_properties()
 
 	property_get("ro.bootloader", bootloader);
 
-	if (strstr(bootloader, "G550T1")) {
-		/* on5ltemtr */
-		property_set("ro.product.model", "SM-G550T1");
-		property_set("ro.product.name", "on5ltemtr");
+	if (strstr(bootloader, "G550T")) {
+		/* on5ltetmo */
+		property_set("ro.product.model", "SM-G550T");
+		property_set("ro.product.name", "on5ltetmo");
 	} else {
 		/* all other variants become on5ltetmo */
 		property_set("ro.product.model", "SM-G550T");
