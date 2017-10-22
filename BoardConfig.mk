@@ -33,17 +33,17 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 0x2A4FFC000 # 0x2A5000000 16384 (footer)
 BOARD_CACHEIMAGE_PARTITION_SIZE    := 0x040000000
 BOARD_FLASH_BLOCK_SIZE := 131072
 
-TARGET_KERNEL_SOURCE := kernel/samsung/on5ltemtr
+TARGET_KERNEL_SOURCE := kernel/samsung/on5ltetmo
 TARGET_KERNEL_CONFIG := exynos3475-on5lte_usa_mtr_defconfig
-TARGET_PREBUILT_KERNEL := device/samsung/on5ltemtr/zImage
-TARGET_PREBUILT_DTB := device/samsung/on5ltemtr/dtb.img
+TARGET_PREBUILT_KERNEL := device/samsung/on5ltetmo/zImage
+TARGET_PREBUILT_DTB := device/samsung/on5ltetmo/dtb.img
 
 # Use this flag if the board has a ext4 partition larger than 2gb
 BOARD_HAS_LARGE_FILESYSTEM := true
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 BOARD_SUPPRESS_SECURE_ERASE := true
-BOARD_CUSTOM_BOOTIMG_MK :=  device/samsung/on5ltemtr/bootimg.mk
+BOARD_CUSTOM_BOOTIMG_MK :=  device/samsung/on5ltetmo/bootimg.mk
 
 # TWRP specific build flags
 TW_THEME := portrait_hdpi
@@ -68,7 +68,7 @@ TW_INCLUDE_CRYPTO := true
 TARGET_UNIFIED_DEVICE := true
 TARGET_INIT_VENDOR_LIB := libinit_on5ltetmo
 TARGET_RECOVERY_DEVICE_MODULES := libinit_on5ltetmo
-TARGET_LIBINIT_DEFINES_FILE := device/samsung/on5ltemtr/init/init_on5ltetmo.cpp
+TARGET_LIBINIT_DEFINES_FILE := device/samsung/on5ltetmo/init/init_on5ltetmo.cpp
 
 # Debug flags
 #TWRP_INCLUDE_LOGCAT := true

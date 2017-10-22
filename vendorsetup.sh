@@ -1,2 +1,2 @@
-add_lunch_combo cm_on5ltemtr-eng
-add_lunch_combo cm_on5ltemtr-userdebug
+add_lunch_combo cm_on5ltetmo-eng
+add_lunch_combo cm_on5ltetmo-userdebug

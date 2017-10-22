@@ -1,1 +1,1 @@
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/cm_on5ltemtr.mk
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/cm_on5ltetmo.mk
